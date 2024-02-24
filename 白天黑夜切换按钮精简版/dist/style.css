@@ -47,6 +47,19 @@ body[data-theme="dark"] {
   transition-timing-function: cubic-bezier(0, 0.5, 1, 1);
   cursor: pointer;
 }
+/* 按键回弹 */
+.container .components:active {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
 .container .main-button {
   margin: 7.5em 0 0 7.5em;
   width: 55em;
